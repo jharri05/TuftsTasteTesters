@@ -1,6 +1,7 @@
 import React from "react";
 import "./welcome.css";
-
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { Routes } from "react-router-dom";
 function Welcome () { 
     return(
         <div >
@@ -19,4 +20,46 @@ function Welcome () {
         </div>
     );
 }
+
+
+function AboutPage() {
+    return (
+      <div>
+        <h1>About Tufts Taste Testers</h1>
+        <p>Learn about our mission and how we review dining halls!</p>
+      </div>
+    );
+}
+function App() {
+    return (
+      <Router>
+        <div className="App">
+          <header className="App-header">
+            {/* Navigation Bar */}
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/welcome">Welcome</Link>
+                </li>
+              </ul>
+            </nav>
+  
+            {/* Routes */}
+            <Routes>
+              <Route path="/" exact element={Welcome} />
+              <Route path="/about" element={AboutPage} />
+              <Route path="/welcome" element={Welcome} />
+            </Routes>
+          </header>
+        </div>
+      </Router>
+    );
+  }
+  
 export default Welcome;
