@@ -1,11 +1,10 @@
 import React from "react";
-import "./welcome.css";
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import "./welcome.css";import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { Routes } from "react-router-dom";
 function Welcome () { 
     return(
         <div >
-            <header className="App-header">
+            <header comelassName="App-header">
                 <h1>Welcome to Tufts Taste Testers!</h1>
                 <p> Where we serve the truth, one dining hall at a time</p>
                 <p>This is how busy it is out of 5 👤</p>
