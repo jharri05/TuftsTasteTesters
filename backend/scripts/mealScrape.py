@@ -5,6 +5,24 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
+from sqlalchemy.orm import Session
+from database import SessionLocal, FoodItem
+
+def save_to_db(food_list, meal_type):
+    db: Session = SessionLocal()
+
+    for food in food_list:
+        # Check if the item already exists
+        existing_item = db.query(FoodItem).filter(
+            FoodItem.name == food, FoodItem.meal == meal_type
+        ).first()
+
+        if not existing_item:
+            db_item = FoodItem(name=food, meal=meal_type)
+            db.add(db_item)
+
+    db.commit()  # Save changes
+    db.close()
 
 # Modify/duplicate script to run on Lunch, Breakfast, and Dinner.
 # iterate thru page and open all possible LINK_TEXT elements?
@@ -96,6 +114,7 @@ time.sleep(4)
 # Parse the dynamically updated page source
 soup = BeautifulSoup(driver.page_source, "html.parser")
 
+<<<<<<< Updated upstream
 food_items = soup.find_all("span", class_="food-name")
 cleaned_data = [item.text.strip() for item in food_items]
 
@@ -104,3 +123,12 @@ for items in cleaned_data:
 
 # Close WebDriver
 driver.quit()
+=======
+    food_items = soup.find_all("span", class_="food-name")
+
+    cleaned_data = [item.text.strip() for item in food_items]
+
+    # Close WebDriver
+    driver.quit()
+    save_to_db(cleaned_data, "Lunch")
+>>>>>>> Stashed changes
