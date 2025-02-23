@@ -64,13 +64,6 @@ nav li {
 
 }
 
-@media (max-width : 450px) { 
-  nav li { 
-    margin: 0 20px;
-  }
-
-  .nav-link { 
-    font-size: 1em;
-  }
-
+.App-link {
+  color: #61dafb;
 }

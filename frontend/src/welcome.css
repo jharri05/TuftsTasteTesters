@@ -131,7 +131,12 @@ code {
     padding: 15px;
     margin: 0px 10px;
     font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.menu_link { 
+    color: white;
+    text-decoration: none;
 }
 
 .menu_link { 
