@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body {
+  /* margin: 0; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  text-align: center;   
+
 }
 
-.App-logo {
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+
+nav {
+  text-align: center;
+  background-color: white;
+  top:0;
+  margin-top: 0px; 
+  display: flex;
+  justify-content: center;
+  padding: 10px 0; 
+  /* border: 2px solid black;
+   */
+}
+
+nav li { 
+  float: left;
+  list-style-type: none;
+  margin: 0 20px
+}
+
+.nav-link { 
+  text-decoration: none;
+  font-size: 1.2em;
+  color: brown;
+  font-weight: 500;
+  font-family:  'Fira Sans' ;
+  display: block;
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
+ 
+}
+
+.nav-link:hover{ 
+  transform: scale(1.1); 
+  color: rgb(167, 55, 55);
+}
+
+.nav-link:hover + li {
+  transform: translateX(15px); /* Slightly push the next sibling */
+}
+
+.nav li:hover ~ li {
+  transform: translateX(15px); /* Slightly push all following siblings */
+}
+
+/* .app  */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+} */
+/* 
 .App-header {
   background-color: #638fe6;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row; 
+  align-items: center; 
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(196, 191, 151);
+  gap: 20px; 
 }
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

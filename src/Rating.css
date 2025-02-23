@@ -1,0 +1,27 @@
+/* Rating.css */
+
+.icon-rating {
+    font-size: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;  /* Center icons horizontally */
+    align-items: center;      /* Center icons vertically */
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    text-align: center; /* Center content horizontally */
+  }
+  
