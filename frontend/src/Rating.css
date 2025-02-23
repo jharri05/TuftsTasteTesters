@@ -1,0 +1,28 @@
+/* Rating.css */
+
+.icon-rating {
+    font-size: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;  /* Center icons horizontally */
+    align-items: center;      /* Center icons vertically */
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #435fc4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #3f35c9;
+  }
+  
+  div {
+    text-align: center; /* Center content horizontally */
+  }
+  
