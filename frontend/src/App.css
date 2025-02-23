@@ -14,8 +14,11 @@ code {
 }
 
 nav {
+  position: absolute;
+  position: fixed;
   text-align: center;
-  background-color: white;
+  background-color:  rgba(0, 0, 0, 0.4);
+  width: 100%;
   top:0;
   margin-top: 0px; 
   display: flex;
@@ -23,6 +26,7 @@ nav {
   padding: 10px 0; 
   /* border: 2px solid black;
    */
+  z-index: 10;
 }
 
 nav li { 
@@ -34,7 +38,7 @@ nav li {
 .nav-link { 
   text-decoration: none;
   font-size: 1.4em;
-  color: #5E4B3C;
+  color: #fefefe;
   font-weight: 700;
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
   display: block;
@@ -49,32 +53,24 @@ nav li {
 }
 
 
-/* {
-  cursor: url(${elephantCursos}), auto;
-} */
+@media (max-width : 650px) { 
+  nav li { 
+    margin: 0 40px;
+  }
 
+  .nav-link { 
+    font-size: 1.1em;
+  }
 
-
-/* .app  */
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-/* 
-.App-header {
-  background-color: #638fe6;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row; 
-  align-items: center; 
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(196, 191, 151);
-  gap: 20px; 
 }
 
-.App-link {
-  color: #61dafb;
-} */
+@media (max-width : 450px) { 
+  nav li { 
+    margin: 0 20px;
+  }
 
+  .nav-link { 
+    font-size: 1em;
+  }
+
+}

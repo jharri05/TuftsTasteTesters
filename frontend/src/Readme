@@ -1,0 +1,42 @@
+================================================================================
+<Tufts Taste Testers>
+================================================================================
+Created by: <Tufts Taste Testers> (<Belema, Josh, Katherine, Osinachi, Samuel, Sarah >)
+Presented at JumboHack 2025 under the <General> track.
+
+<This project is supposed to be a food review website for Tufts dining halls>
+
+Team Member Contributions:
+    <Belema and Samuel>: <Worked on Dining menus page>
+    <Josh> : <Set up web scraping using  selenium>
+    <Katherine> : <Brainstorming web design>
+    <Osinachi> : <General front end html and css, responsiveness of site> 
+    <Sarah> : <Rating system> 
+
+    ...
+
+ACKNOWLEDGEMENTS
+<ChatGPT and copilot aided a lot in debugging and using new technologies> 
+<One of the workshops on scrapping was helpful in pulling some content 
+from Nutrislice>
+
+REFLECTION
+<What motivated your team to choose this project?>
+<Sometimes, when we go to the dining halls, 
+ the line is incredibly long and we cant turn back because we already walked 
+ all the way. Therefore, we thought this project would be a good way to keep 
+ track of the lines at the dining hall. >
+<Potential future work/improvements?>
+< We did not finish properly linking our code to Nutrislice at Jumbohack, but
+ we think it would be great if we did as people will be able to track in real 
+ time how busy the dining halls are.
+>
+<What is a challenge you encountered while making this?>
+< There are many challenges that we faced. It was our first time using react.js 
+so it took us a while to set it up. Infact we spent more than half of the first 
+day trying to get our reactjs files to sync and work. 
+It was also our first time using beuatiful soup and collaborating real time on 
+git hub so we had a lot of bugs we had not seen before.
+>
+<What is a fun or interesting experience you had with another hacker?>
+<>
