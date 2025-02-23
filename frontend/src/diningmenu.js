@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import "./diningmenu.css";
 import jumbo from "./images/jumbo.jpg"
+import Dewick from "./Dewick"
 
 const DiningMenus = ({openMenu, handleMenuClick}) => {
     return(
@@ -18,9 +19,10 @@ const DiningMenus = ({openMenu, handleMenuClick}) => {
 
                 {openMenu === 'dewick' && (
                 <>
-                  <div className = "hidden_menu_dewick">Meal 1</div>
+                  <Dewick className = "hidden_menu_dewick"/>
+                  {/* <div className = "hidden_menu_dewick">Meal 1</div>
                   <div className = "hidden_menu_dewick">Meal 2</div>
-                  <div className = "hidden_menu_dewick">Meal 3</div>
+                  <div className = "hidden_menu_dewick">Meal 3</div> */}
                 </>
                 )}
 
@@ -30,9 +32,9 @@ const DiningMenus = ({openMenu, handleMenuClick}) => {
 
                 {openMenu === 'carm' && (
                 <>
-                  <div className = "hidden_menu_carm">Meal 1</div>
+                  {/* <div className = "hidden_menu_carm">Meal 1</div>
                   <div className = "hidden_menu_carm">Meal 2</div>
-                  <div className = "hidden_menu_carm">Meal 3</div>
+                  <div className = "hidden_menu_carm">Meal 3</div> */}
                 </>
                 )}
             
