@@ -114,16 +114,6 @@ time.sleep(4)
 # Parse the dynamically updated page source
 soup = BeautifulSoup(driver.page_source, "html.parser")
 
-<<<<<<< Updated upstream
-food_items = soup.find_all("span", class_="food-name")
-cleaned_data = [item.text.strip() for item in food_items]
-
-for items in cleaned_data:
-    print(items)
-
-# Close WebDriver
-driver.quit()
-=======
     food_items = soup.find_all("span", class_="food-name")
 
     cleaned_data = [item.text.strip() for item in food_items]
@@ -131,4 +121,3 @@ driver.quit()
     # Close WebDriver
     driver.quit()
     save_to_db(cleaned_data, "Lunch")
->>>>>>> Stashed changes

@@ -1,12 +1,9 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
-<<<<<<< Updated upstream
-from scripts.test import process_menu
-=======
+
 from sqlalchemy.orm import Session
 from database import SessionLocal, FoodItem  # Import database models and session
 from scripts.mealScrape import process_menu  # Import scraper
->>>>>>> Stashed changes
 
 app = FastAPI()
 
