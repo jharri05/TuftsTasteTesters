@@ -125,16 +125,13 @@ code {
     padding: 15px;
     margin: 0px 10px;
     font-size: 1em;
-<<<<<<< HEAD
+    /* z-index:9999 ; */
     
 }
 
 .menu_link { 
     color: white;
     text-decoration: none;
-=======
-    font-family: 'Montserrat', sans-serif;
->>>>>>> 623e7344e86fae85ec38dccc9fa155978693e550
 }
 
 footer{ 
