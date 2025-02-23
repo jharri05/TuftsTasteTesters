@@ -32,6 +32,7 @@ const DiningMenus = ({openMenu, handleMenuClick}) => {
 
                 {openMenu === 'carm' && (
                 <>
+                  <Dewick className = "hidden_menu_carm"/>
                   {/* <div className = "hidden_menu_carm">Meal 1</div>
                   <div className = "hidden_menu_carm">Meal 2</div>
                   <div className = "hidden_menu_carm">Meal 3</div> */}

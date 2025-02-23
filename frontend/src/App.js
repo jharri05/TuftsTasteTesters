@@ -17,15 +17,13 @@ function App() {
       <Router>
           <nav>
             <ul>
-              <li><Link to="/" className='nav-link'>Home</Link></li>
-              <li><Link to="/dewick" className='nav-link'>Dewick</Link></li>
+              <li><Link to="/" className='nav-link'>Home</Link></li>   
               <li><Link to="/diningmenu" className='nav-link'>Menu</Link></li>
             </ul>
           </nav>
       
         <Routes>
             <Route path="/" element={<Welcome />} />
-            <Route path="/Dewick" element={<Dewick />} />
             <Route path="/diningmenu" element={
               <Menu 
                openMenu = {openMenu}

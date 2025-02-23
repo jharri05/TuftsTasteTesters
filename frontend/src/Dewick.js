@@ -18,9 +18,7 @@ function Dewick() {
     }, []);
   return (
     <div>
-      <h4>Dewick Dining Hall</h4>
-      {/* <p>Find out what's on the menu at Dewick today!</p>
-      <h5>Today's Menu</h5> */}
+    
             <ul>
                 {menu.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -44,22 +42,11 @@ function Dewick() {
         <Rating iconType="person" />
         </div>
 
-<<<<<<< HEAD
         <div>
         <h3>Utensils?</h3>
         <Rating iconType="fork" />
         </div>
       </div>
-=======
-      <h3>Food Rating</h3>
-      <Rating iconType="star" />
-      <h3>Busyness</h3>
-      <Rating iconType="person" />
-      {/* <h3>Utensils?</h3>
-      <Rating iconType="fork" /> */}
-      <Rating iconType="fork" /> {/* This will render the fork icons */}
-
->>>>>>> 4e74338956026efd099bb663010e67bca263def2
 
     </div>
   );
