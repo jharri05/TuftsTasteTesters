@@ -4,6 +4,7 @@ import './App.css';
 import Welcome from './welcome';
 import Dewick from './Dewick';
 import Menu from './diningmenu';
+// import elephantCursor from './images/jumbo-cursor.png'; 
 
 function App() {
   return (
