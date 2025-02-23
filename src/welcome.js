@@ -5,6 +5,7 @@ import dewick_pic from "./images/dewick-square.jpg"
 import carm_pic from "./images/carm_pic.jpg"
 import bg from "./images/bg.jpg"
 
+
 function Welcome() { 
     return (
         <div>
@@ -29,12 +30,15 @@ function Welcome() {
                     <div className = "overlay"></div>
                     <div className="diner diner1">
                         <img src={dewick_pic} />
-                        <button className = "menu_list_but">Check Menu</button>
+                        <div className = "menu_list_but">
+                        <Link to="/diningmenu" className="menu_link">Check Menu</Link>
+                        </div>
                     </div>
                     <div className="diner diner2">
                         <img src={carm_pic} />
-                        <button className = "menu_list_but">
-                        Check Menu</button>
+                        <div className = "menu_list_but">
+                        <Link to="/diningmenu" className="menu_link">Check Menu</Link>
+                        </div>
                     </div>
                     <img id = "bg" src={bg}/>
                 </div>
