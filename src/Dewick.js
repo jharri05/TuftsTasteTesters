@@ -19,6 +19,8 @@ function Dewick() {
       <Rating iconType="star" />
       <h3>Busyness</h3>
       <Rating iconType="person" />
+      {/* <h3>Utensils?</h3>
+      <Rating iconType="fork" /> */}
 
     </div>
   );

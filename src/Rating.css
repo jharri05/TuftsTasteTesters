@@ -15,6 +15,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
   }
   
   button:hover {
