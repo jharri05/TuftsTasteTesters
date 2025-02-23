@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import "./welcome.css";
+import dewick_pic from "./images/dewick-square.jpg"
+import carm_pic from "./images/carm_pic.jpg"
 
 function Welcome() { 
     return (
@@ -17,7 +19,26 @@ function Welcome() {
                    Head down to see how busy it is at dewick 
                 </div>
                 <hr />
+                <div className = "dinning_halls" >{
+            
+                }
+                    <div className="diner">
+                        <img src={dewick_pic} />
+                        <button className = "menu_list_but">Check Menu</button>
+                    </div>
+                    <div className="diner">
+                        <img src={carm_pic} />
+                        <button className = "menu_list_but">
+                        Check Menu</button>
+                    </div>
+                </div>
+
             </section>
+
+            <footer> 
+
+
+            </footer>
 
         </div>
     );

@@ -41,12 +41,22 @@ code {
     font-size : 1.2em ;
 }
 
-.after_welcome div { 
-  
+.dinning_halls { 
+  margin-top: 100px;
 }
 
 hr { 
     /* width: 100% ; */
+}
+
+.diner img{ 
+    /* border : 2px solid black; */
+    width: 50%; 
+}
+
+.menu_list_but { 
+    background-color:  rgb(108, 76, 31);
+    border-radius: 3px;
 }
 
 
