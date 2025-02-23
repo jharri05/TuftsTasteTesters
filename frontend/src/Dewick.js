@@ -39,6 +39,8 @@ function Dewick() {
       <Rating iconType="person" />
       {/* <h3>Utensils?</h3>
       <Rating iconType="fork" /> */}
+      <Rating iconType="fork" /> {/* This will render the fork icons */}
+
 
     </div>
   );

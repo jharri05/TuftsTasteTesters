@@ -64,19 +64,6 @@ nav li {
 
 }
 
-<<<<<<< HEAD
 .App-link {
   color: #61dafb;
-} */
-=======
-@media (max-width : 450px) { 
-  nav li { 
-    margin: 0 20px;
-  }
-
-  .nav-link { 
-    font-size: 1em;
-  }
-
 }
->>>>>>> 7403a95989ff60913dfddd08ce0050506bba0a9f
