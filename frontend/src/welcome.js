@@ -26,7 +26,6 @@ function Welcome() {
                    Head down to see how busy it is at dewick 
                 </div>
                 <div className = "dinning_halls" >
-
                     <div className = "overlay"></div>
                     <div className="diner diner1">
                         <img src={dewick_pic} />
@@ -40,6 +39,7 @@ function Welcome() {
                         <Link to="/diningmenu" className="menu_link">Check Menu</Link>
                         </div>
                     </div>
+                    
                     <img id = "bg" src={bg}/>
                 </div>
             </section>
