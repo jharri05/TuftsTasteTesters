@@ -1,5 +1,7 @@
 import React from 'react';
 import Rating from './Rating'
+// // import RatingReview from './RatingReview'
+// import RatingReview from './src\RatingReview.js'
 
 function Dewick() {
   return (
@@ -21,6 +23,16 @@ function Dewick() {
       <Rating iconType="person" />
       {/* <h3>Utensils?</h3>
       <Rating iconType="fork" /> */}
+
+      {/* const [rating, setRating] = useState(0)
+      return(
+          <>
+          <div>
+              <RatingReview rating={rating} setRating={setRating
+              } />
+          </div>
+          </>
+    ) */}
 
     </div>
   );

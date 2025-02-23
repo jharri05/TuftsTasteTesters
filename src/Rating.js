@@ -141,9 +141,6 @@ const Rating = ({ iconType = 'star' }) => {
     });
   };
     
-
-  
-
   // Function to load ratings from localStorage
   const loadRatings = () => {
     const storedRatings = JSON.parse(localStorage.getItem('ratings'));
@@ -214,42 +211,6 @@ const Rating = ({ iconType = 'star' }) => {
       );
     }
   };
-
-
-
-//   const renderIcon = (type, filled) => {
-//     let color;
-    
-//     // Set color for different icon types
-//     if (type === 'star') {
-//       color = '#f7c21a'; // Color for star
-//     } else if (type === 'person') {
-//       color = '#88ddf5'; // Color for person
-//     } else if (type === 'fork') {
-//       color = '#755008'; // Color for fork
-//     }
-    
-//     // Return the appropriate icon based on the type and filled state
-//     if (type === 'star') {
-//       return filled ? (
-//         <box-icon name="star" type="solid" color={color}></box-icon>
-//       ) : (
-//         <box-icon name="star" color={color}></box-icon>
-//       );
-//     } else if (type === 'person') {
-//       return filled ? (
-//         <box-icon name="user" type="solid" color={color}></box-icon>
-//       ) : (
-//         <box-icon name="user" color={color}></box-icon>
-//       );
-//     } else if (type === 'fork') {
-//       return filled ? (
-//         <box-icon name="fork" type="solid" color={color}></box-icon>
-//       ) : (
-//         <box-icon name="fork" color={color}></box-icon>
-//       );
-//     }
-//   };
 
   return (
     <div>
