@@ -17,12 +17,17 @@ function App() {
           </ul>
         </nav>
       </div>
+     
       <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/Dewick" element={<Dewick />} />
           <Route path="/diningmenu" element={<Menu />}/>
         </Routes>
+        <footer>                 
+          <span>&copy; Jumbocode 2025</span>
+        </footer>
     </Router>
+    
   );
 }
 

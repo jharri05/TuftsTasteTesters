@@ -5,7 +5,6 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgb(198, 175, 145);
     margin: 0 auto;
     text-align: center;   
   
@@ -17,62 +16,56 @@ code {
       
 }
 
-.nav li{ 
-    float: left ;
-    list-style: none;
-    margin-left: 20px;
-    top: 0;
-    /* margin: 100px auto;  */
-   
-    /* display: flex;
-    flex-direction: row;       */
-}
 
-/* .projects { 
-    display: flex;
-    justify-content: center;  
-    margin: 30px 0;
-}
-
-.projName { 
-    width: 300px;
-    height: 100px;
-    margin: 0 50px;
-    padding: 20px 40px;
-    border: 3px solid rgb(146, 75, 44);
-    border-radius: 10px;
-    color: rgb(146, 75, 44);
-    text-align: center;
-    line-height: 100px;
-    font-size: 30px;
-    font-weight: 100;
-
-} */
-
-
-.dining-containers {
-    display: flex;
-    flex-direction: column;  /* Stack items vertically */
-    align-items: center;     /* Center items horizontally */
-    gap: 2rem;
-    padding: 2rem;
-  }
+.menu_info { 
+  width: 80%;
+  background-color: #002E6D ;
+  text-align: left;
+  padding: 0px 20px;
+  color: white;
   
-  .dining-box {
+}
+
+.menu_info h1{ 
+  font-size: 2.5em;
+}
+
+
+.overlay_jumbo_container{ 
+  position: relative;
+  /* width: 100%; */
+  height: 1023px;
+}
+
+.overlay_jumbo{ 
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.46);
+    z-index: 2; 
+    top: 0; 
+    left:0;
+    right: 0; 
+    width: 100%;
+    height: 100%;
+}
+
+  .menu_body{
+    display: flex;
+  }
+
+  /* .dining-box {
     border-radius: 15px;
-    padding: 2rem;
-    width: 90%;             /* Make containers 90% of page width */
+    width: 90%;           
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
   }
   
   .dewick {
-    background-color: #d38129;  /* Light blue background */
+    background-color: #d38129;  
   }
   
   .carmichael {
-    background-color: #52ec23;  /* Light orange background */
+    background-color: #52ec23;  
   }
   
   .dining-box:hover {
@@ -84,12 +77,4 @@ code {
     color: #333;
     font-size: 1.5rem;
   }
-
-  .background-image {
-    background-image: url('pbackground.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: center; 
-    width: 100%; 
-    height: 100vh; 
-  }
+ */

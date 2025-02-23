@@ -31,32 +31,27 @@ nav {
 nav li { 
   float: left;
   list-style-type: none;
-  margin: 0 20px
+  margin: 0 65px
 }
 
 .nav-link { 
   text-decoration: none;
-  font-size: 1.2em;
-  color: brown;
-  font-weight: 500;
+  font-size: 1.4em;
+  color: #5E4B3C;
+  font-weight: 700;
   font-family:  'Fira Sans' ;
   display: block;
   transition: transform 0.2s ease-in-out; /* Smooth transition */
+
  
 }
 
 .nav-link:hover{ 
   transform: scale(1.1); 
-  color: rgb(167, 55, 55);
+  color:  #76553c;
 }
 
-.nav-link:hover + li {
-  transform: translateX(15px); /* Slightly push the next sibling */
-}
 
-.nav li:hover ~ li {
-  transform: translateX(15px); /* Slightly push all following siblings */
-}
 
 /* .app  */
 
