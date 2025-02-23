@@ -52,29 +52,29 @@ code {
     display: flex;
   }
 
-  /* .dining-box {
+  .dining-box {
     border-radius: 15px;
     width: 90%;           
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
+    background-color: white; 
+    height : 50px;
+    line-height: 50px;
+
+    
+  } 
+  .dining-box div { 
+    background-color: white; 
   }
-  
-  .dewick {
-    background-color: #d38129;  
-  }
-  
-  .carmichael {
-    background-color: #52ec23;  
+
+  .dining-box h2 {
+    color:  #53565A;
+    font-size: 1.5rem;
   }
   
   .dining-box:hover {
     transform: translateY(-5px);
   }
   
-  .dining-box h2 {
-    margin: 0;
-    color: #333;
-    font-size: 1.5rem;
-  }
- */
+  
